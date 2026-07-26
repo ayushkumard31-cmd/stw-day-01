@@ -33,7 +33,8 @@ const obj={
     first:"Ayush",
     last:"kumar"
     },
-    roll :8,
+    roll :25,
+    school:"XYZ School"
     isStudent:true
 
 }
