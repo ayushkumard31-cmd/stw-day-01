@@ -73,6 +73,7 @@ const marks={
 
     }
 }
+//New comment
 let total=marks.math+marks.phy+marks.chem
 total+=(marks.practical.phy && marks.practical)||0
 console.log(total)
