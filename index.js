@@ -44,11 +44,43 @@ console.log(abc);
 console.log(abc===xyz);
 console.log(abc==xyz);
 console.log(obj.name.first);
-console.log(obj.school.l);
+// console.log(obj.school.l);
+console.log('5'!=5);
+console.log('5'!==5);
+console.log('5'==5 ||obj.school.name);
+if (2>5) {
+    console.log("Mathmatics is wrong")
+}
+else{
+    console.log("This will print")
+    const str=''//emtpy means false
+    // let confusion =500*'abc' prints NaN means not a number
+    let confusion=5/0
+    console.log(confusion)
+    if(str||confusion){
+        console.log("will it print")
+    }
+    
+}
+const marks={
+    math:90,
+    phy:75,
+    chem:85,
+    practical:
+    {
+        phy:45,
+        math:90
 
+    }
+}
+let total=marks.math+marks.phy+marks.chem
+total+=(marks.practical.phy && marks.practical)||0
+console.log(total)
 
-
-
+console.log(5+parseInt('4a'))
+console.log((0.1+0.2).toFixed(2))
+const newChar='Arnab'
+console.log(newChar.toLowerCase()=='arnab')
 
 
 
