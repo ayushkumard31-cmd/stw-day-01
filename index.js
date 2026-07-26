@@ -33,8 +33,12 @@ const obj={
     first:"Ayush",
     last:"kumar"
     },
+<<<<<<< HEAD
+    age: 45,
+=======
     roll :25,
     school:"XYZ School"
+>>>>>>> 43014868a57bc45773e0e70cae317d9cedfcfcef
     isStudent:true
 
 }
@@ -74,6 +78,7 @@ const marks={
 
     }
 }
+//New comment
 let total=marks.math+marks.phy+marks.chem
 total+=(marks.practical.phy && marks.practical)||0
 console.log(total)
