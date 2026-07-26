@@ -33,7 +33,7 @@ const obj={
     first:"Ayush",
     last:"kumar"
     },
-    roll :8,
+    age: 45,
     isStudent:true
 
 }
